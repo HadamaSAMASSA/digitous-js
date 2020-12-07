@@ -25,4 +25,10 @@ console.log(basic, basicUp, basicDown);
 
 //exercice 07
 var word = "banana";
-var letters = word.split()
+var letters = word.split("");
+console.log(letters);
+
+//exercice 08
+var age = 38;
+var template = `i'm ${age} years old`;
+console.log(template);
