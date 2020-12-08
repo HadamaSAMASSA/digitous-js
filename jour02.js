@@ -35,8 +35,45 @@ console.log(test<bis, test>bis, test==bis, test===bis, test&&bis, test||bis);
 //ex 6 - etat
 var limite = 50;
 var score = 64;
-if(score<limite){
+if(score>limite){
 console.log("Ok good !")}
 else{console.log("Oh nooo...")
 };
 //fin ex6
+
+//ex 7 - etat II
+var password = "azerty";
+if(password.length >= 5){
+    console.log("The password is secure")
+};
+//fin ex7
+
+//ex 8 - etat III
+var limite2 = 150;
+var score2 = 64;
+var password2 = "azerty";
+
+if(score2>limite2 && password2.length > 5){
+    console.log("Tout va bien");
+}
+else if(score2>limite2 || password2.length >= 5){
+    console.log("Quelque chose est bon");
+}
+else{
+    console.log("Rien n'est bon");
+}
+
+var limite2 = 150;
+var score2 = 64;
+var password2 = "azty";
+
+if(score2>limite2 && password2.length > 5){
+    console.log("Tout va bien");
+}
+else if(score2>limite2 || password2.length >= 5){
+    console.log("Quelque chose est bon");
+}
+else{
+    console.log("Rien n'est bon");
+}
+
