@@ -76,4 +76,44 @@ else if(score2>limite2 || password2.length >= 5){
 else{
     console.log("Rien n'est bon");
 }
+//fin ex8
 
+//prime
+var aleatoire = 4
+
+//bonus II
+var month = "january";
+switch (month) {
+	case "december": 
+	case "january": 
+	case "february": 
+		console.log("winter");
+        break;
+    case "march": 
+	case "april": 
+	case "may": 
+		console.log("spring");
+        break;
+    case "june":
+	case "july":
+	case "august":
+		console.log("summer");
+        break;
+    case "september": 
+	case "october": 
+	case "november": 
+        console.log("fall");
+        break;
+	default: 
+		console.log("That's not a season");
+}
+//fin bonus II
+
+//bonus III
+var nbArrondi = 3.6;
+var arrondiResult = Math.floor(nbArrondi);
+console.log(arrondiResult);
+
+var nbArrondi = 3.6;
+var arrondiResult = Math.ceil(nbArrondi);
+console.log(arrondiResult);
