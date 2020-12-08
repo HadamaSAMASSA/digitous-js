@@ -32,3 +32,7 @@ console.log(letters);
 var age = 38;
 var template = `i'm ${age} years old`;
 console.log(template);
+
+//bonus
+var quoteOfTheDay = 'La citation d\'aujourd\'hui est : \"Le js c\'est cool"'
+console.log(quoteOfTheDay);
