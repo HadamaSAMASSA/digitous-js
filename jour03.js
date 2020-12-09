@@ -28,8 +28,24 @@ objects.shift();
 console.log(objects);
 //fin ex3
 
+//ex 4 order
+var numbers = [4, 10, 8, 12, 6]
+numbers.reverse();
+console.log(numbers);
 
+numbers.sort(function(a, b){
+    return a - b;
+});
+console.log(numbers);
+//fin ex 4
 
-//fin ex3
+//ex 5 boucle
+var total = 0
+var limit = 10
+for(var i = 1; i <= 10; i++){
+ //   console.log(i);
+    total+=i
+    console.log(total);
+}
+//fin ex5
 
-//ex 4 
