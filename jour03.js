@@ -49,3 +49,10 @@ for(var i = 1; i <= 10; i++){
 }
 //fin ex5
 
+//ex 6 reverse
+var sentence = ["Hello Konexio !"]
+for(var i = sentence.length; i >= 0; i--){
+//autre a ecrire ici
+    console.log()
+}
+
