@@ -22,7 +22,7 @@ console.log(arrondie, arrondie2, arrondie3);
 //ex 4 - arithmetique
 var test = 12;
 var bis = 5;
-console.log(test+bis, test-bis, test*bis, test/bis, test%bis);
+console.log(test+bis, test-bis, test*bis, test/bis, test**bis, test%bis);
 //fin ex4
 
 //ex 5 - comparaison
@@ -44,7 +44,7 @@ else{console.log("Oh nooo...")
 //ex 7 - etat II
 var password = "azerty";
 if(password.length >= 5){
-    console.log("The password is secure")
+    console.log("The password is secured")
 };
 //fin ex7
 
@@ -78,8 +78,18 @@ else{
 }
 //fin ex8
 
-//prime
-var aleatoire = 4
+/*prime
+var max = 6;
+var min = 1;
+var random = Math.random() * (max - min + 1) + min;
+console.log(random);
+
+if(randon === 6){
+    console.log("I win");
+}
+else{
+    console.log("Try again");
+}*/
 
 //bonus II
 var month = "january";
