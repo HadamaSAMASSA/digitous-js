@@ -36,30 +36,8 @@ function checkIfEven(){
 }
 checkIfEven();
 ////////////////////////
-function checkIfEven2(){
-    var num = 3;
-    if(num % 2 === 0){
-        console.log("even");
-    }
-    else{
-        console.log("odd");
-    }
-}
-checkIfEven2();
-////////////////////////
-function checkIfEven3(){
-    var num = 321;
-    if(num % 2 === 0){
-        console.log("even");
-    }
-    else{
-        console.log("odd");
-    }
-}
-checkIfEven3();
-////////////////////////
-    var num = 556;
-function checkIfEven4(num){
+var num = 3;
+function checkIfEven2(num){
 
     if(num % 2 === 0){
         console.log("even");
@@ -68,4 +46,8 @@ function checkIfEven4(num){
         console.log("odd");
     }
 }
-checkIfEven4(537);
+
+checkIfEven2(3);
+checkIfEven2(320);
+checkIfEven2(537);
+
