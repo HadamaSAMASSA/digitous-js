@@ -50,4 +50,37 @@ function checkIfEven2(num){
 checkIfEven2(3);
 checkIfEven2(320);
 checkIfEven2(537);
+// fin ex3
 
+console.log("________04 Compare________");
+//ex4
+/*var num1 = 16; var a l'exterieur de la fonction = scope global.
+var num2 = 15;*/
+function compare(){
+    var num1 = 16;//var a l'interieur de la fonction = scope local.
+    var num2 = 15;
+    if(num1 > num2){
+        console.log("num1 is bigger");
+    }
+    else if(num1 < num2){
+        console.log("num2 is bigger");
+    }
+    else if (num1 = num2){
+        console.log("both are the same");
+    }
+}
+compare();
+////////////////////////////
+function compare2(num1, num2){
+    if(num1 > num2){
+        console.log("num1 is bigger");
+    }
+    else if(num1 < num2){
+        console.log("num2 is bigger");
+    }
+    else if (num1 = num2){
+        console.log("both are the same");
+    }
+}
+compare2(6, 25);
+compare2(10, 10);
