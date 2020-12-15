@@ -8,7 +8,7 @@ var cat = {
 console.log(cat);
 console.log("Cat age :",cat.age);
 
-if(cat.isCute === true){
+if(cat.isCute){
     console.log("So cute !");
 }
 //fin ex1
@@ -36,7 +36,7 @@ function checkIfEven(){
 }
 checkIfEven();
 ////////////////////////
-var num = 3;
+//var num = 3; pas besoin
 function checkIfEven2(num){
 
     if(num % 2 === 0){
@@ -76,7 +76,7 @@ function compare2(num1, num2){
         console.log("num1 is bigger");
     }
     else if(num1 < num2){
-        console.log("num2 is bigger");
+        console.log(`${num2} is bigger than ${num1}`);
     }
     else if (num1 = num2){
         console.log("both are the same");
@@ -84,3 +84,26 @@ function compare2(num1, num2){
 }
 compare2(6, 25);
 compare2(10, 10);
+//fin ex4
+
+console.log("________05 Add Up________");
+//ex5
+function addUp(num){
+    var result = 0;
+    for(var i = 1; i <= num; i++){
+        result = result + i;
+    } 
+    console.log(result);
+}
+addUp(12);
+ //fin ex5
+
+console.log("________06 Time________");
+//ex6
+/*function format(num){
+var hour = (num/60/60)-(num/60/60)%
+var minute = hour / 60;
+var second = minute / 60;
+}
+format(3700);
+console.log(hour + ":" + minute + ":" + second);*/
