@@ -106,4 +106,15 @@ var minute = hour / 60;
 var second = minute / 60;
 }
 format(3700);
-console.log(hour + ":" + minute + ":" + second);*/
+console.log(hour + ":" + minute + ":" + second);
+
+
+console.log("________02 Table________");
+//ex2
+function multiply(entier){
+    for(var i = 1; i <= 10; i++){
+        entier = entier * i;
+    }
+}
+console.log(multiply(process.argv[2]));
+*/
