@@ -50,3 +50,13 @@ function checkPal(stringCheck){
 }
 console.log(checkPal("assa"));
 //fin ex3
+
+console.log("________04 Swap________");
+//ex4
+function swap(stringSwap){
+    var lowerUpper = stringSwap.charAt(0).toLowerCase() + stringSwap.substring(1,5).toUpperCase()
+     + " " + stringSwap.charAt(6).toLowerCase() + stringSwap.substring(7).toUpperCase();
+    return lowerUpper;
+}
+console.log(swap("Hello World"));
+
