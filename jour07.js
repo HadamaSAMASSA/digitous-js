@@ -4,7 +4,7 @@ function sortLetters(stringLetters){
 var letters = stringLetters.split("").sort().join("");
 console.log(letters);
 }
-sortLetters("konexio");
+sortLetters("KoneXio");
 //fin ex1
 
 console.log("________02 XOXO________");
@@ -57,6 +57,16 @@ function swap(stringSwap){
     var lowerUpper = stringSwap.charAt(0).toLowerCase() + stringSwap.substring(1,5).toUpperCase()
      + " " + stringSwap.charAt(6).toLowerCase() + stringSwap.substring(7).toUpperCase();
     return lowerUpper;
+    //MAIS AU FAIT, Y A PLUS SIMPLE JE SUPPOSE !?
 }
 console.log(swap("Hello World"));
+//fin ex4
 
+console.log("________Bonus I________");
+
+function makeItSpongeBob(bobString){
+var upperCSentence = bobString.toUpperCase()
+return `${upperCSentence} / ${bobString}`;
+}
+console.log(makeItSpongeBob("javascript is easy ?"));
+//j'ai vraiment reussi en 5 min ??? Ca peut pas etre aussi simple, il doit y avoir un autre truc !!!!

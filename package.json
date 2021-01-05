@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HadamaSAMASSA/digitous-js/issues"
   },
-  "homepage": "https://github.com/HadamaSAMASSA/digitous-js#readme"
+  "homepage": "https://github.com/HadamaSAMASSA/digitous-js#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
